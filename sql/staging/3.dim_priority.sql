@@ -1,8 +1,8 @@
  -- Create table if not exist
   DROP TABLE [Computer_std].[dbo].[dim_priority]
-  CREATE TABLE [Computer_std].[dbo].[dim_Priority](
+  CREATE TABLE [Computer_std].[dbo].[dim_priority](
     [Priority_id] INT IDENTITY(1,1) PRIMARY KEY,
-    [Priority] [nvarchar](250) NOT NULL
+    [Priority] [nvarchar](100) NOT NULL
    )
  
  --2 Insert data into table
