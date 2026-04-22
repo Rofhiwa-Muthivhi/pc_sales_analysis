@@ -2,9 +2,9 @@
   DROP TABLE [Computer_std].[dbo].[dim_location]
   CREATE TABLE [Computer_std].[dbo].[dim_location](
     [Location_id] INT IDENTITY(1,1) PRIMARY KEY,
-    [Continent] [nvarchar](50) NOT NULL,
-	[Country_or_State] [nvarchar](50) NOT NULL,
-	[Province_or_City] [nvarchar](250) NOT NULL
+    [Continent] [nvarchar](100) NOT NULL,
+	[Country_or_State] [nvarchar](100) NOT NULL,
+	[Province_or_City] [nvarchar](150) NOT NULL
    )
  
  --2 Insert data into table
